@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Blender</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container-landing container-fluid">
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand brand" href="index.html">Sound Blender</a>
+
+            <div class="navbar-collapse" id="collapsedMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a href="login.html" class="button3 signup">Sign In</a>
+                    </li>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="content">
+
+        <div id="login-box">
+            <div class="left">
+                <!-- Social media Icons -->
+                <p class="loginwith">Login with Social Media</p>
+                <div class="items">
+                    <button class="social-signin facebook" id="fb"><i class="fa fa-facebook fa-fw"></i> Facebook</button>
+                    <button class="social-signin twitter" id="twitter"><i class="fa fa-twitter fa-fw"></i> Twitter</button>
+                    <button class="social-signin google" id="google"><i class="fa fa-google-plus fa-fw"></i> Google+</button>
+                </div>
+            </div>
+            <div class="right">
+                <h1>Email & Password</h1>
+                <form id="login">
+                    <input type="text" name="email" placeholder="Email" />
+                    <input type="password" name="password" placeholder="Password" />
+                    <input type="submit" name="login_submit" value="LOG IN" />
+                </form>
+
+            </div>
+
+
+            <div class="or">
+                <span class="innertext">OR</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sign_up">
+        <p>
+            Don't have an account yet? <br>
+            <a href="signup.html">Sign Up</a>
+        </p>
+    </div>
+
+
+    <div class="footer">
+        <p>Copyright &copy; 2023 Soundblender</p>
+    </div>
+
+    <script type="module" src="js/login.js"></script>
+</body>
+
+</html>
